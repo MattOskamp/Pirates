@@ -43,6 +43,7 @@ public class Ship : MonoBehaviour {
 
         // initialize cannons
         Cannons = new List<Cannon>(numberOfCannons); 
+		Vector3 pos = Vector3.zero;
         for (int i = 0; i < numberOfCannons; i++)
         {
             Cannon c = new Cannon();
@@ -58,6 +59,8 @@ public class Ship : MonoBehaviour {
             d.transform.parent = c.cannon.transform;
             d.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             d.transform.localPosition = Vector3.zero;
+			//pos = d.transform.position;
+			//d.transform.position = new Vector3(pos.x, -0.1f, pos.z);
             c.shootDisc = d;
             c.shootDisc.SetActive(false);
 
@@ -78,6 +81,8 @@ public class Ship : MonoBehaviour {
         moveDisc.transform.localScale = new Vector3(moveDistance, moveDistance, moveDistance);
         moveDisc.transform.parent = this.transform;
         moveDisc.transform.localPosition = Vector3.zero;
+		pos = moveDisc.transform.position;
+		moveDisc.transform.position = new Vector3(pos.x, -0.1f, pos.z);
         Color g = Color.green;
         g.a = 0.25f;
         moveDisc.renderer.material.color = g;
@@ -125,7 +130,12 @@ public class Ship : MonoBehaviour {
                 break;
         }
 	}
-
+	
+	void OnMouseDrag ()
+	{
+		// create a route for the ship
+		// but only make it able to be the max distance 
+	}
 
 	
 }

@@ -48,6 +48,15 @@
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\BrightnessControl.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\LineManager.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\RefInt.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorChar.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorLine.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorManager.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControl.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlAlways.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlStatic.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
@@ -66,11 +75,11 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\TerrainToolkit\Read me.txt" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
-     <None Include="Assets\TerrainToolkit\Read me.txt" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
   </ItemGroup>
